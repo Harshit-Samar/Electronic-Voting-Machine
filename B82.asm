@@ -207,6 +207,7 @@ START:
 			cmp bp,0h
 			jz m7
 			call disp_correct
+			; test code
 			
 	m8:		call disp_c8
 			call disp_passwd
